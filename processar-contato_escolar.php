@@ -9,11 +9,16 @@ if($btnEnvia){
 
     require 'vendor/autoload.php';
 
-    $nome = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+    $funcao_escola = filter_input(INPUT_POST, 'funcao_escola', FILTER_SANITIZE_STRING);
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
     $telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING);
-    $assunto = filter_input(INPUT_POST, 'assunto', FILTER_SANITIZE_STRING);
-    $mensagem = filter_input(INPUT_POST, 'mensagem', FILTER_SANITIZE_STRING);
+    $endereco = filter_input(INPUT_POST, 'endereco', FILTER_SANITIZE_STRING);
+    $quantidade_alunos = filter_input(INPUT_POST, 'quantidade_alunos', FILTER_SANITIZE_STRING);
+    $seguro = filter_input(INPUT_POST, 'seguro', FILTER_SANITIZE_STRING);
+    $qual = filter_input(INPUT_POST, 'qual', FILTER_SANITIZE_STRING);
+    // $servicos_interesse = filter_input(INPUT_POST, 'servicos_interesse', FILTER_SANITIZE_STRING); 
+    $obs = filter_input(INPUT_POST, 'obs', FILTER_SANITIZE_STRING);
 
     $mail = new PHPMailer(true);
                                   
@@ -41,19 +46,23 @@ if($btnEnvia){
         $mail->addReplyTo('urmes@urmes.com.br', 'Information');
 
         $mail->isHTML(true);                                  
-        $mail->Subject = 'URMES - Novo Contato! (Contato Geral)';
+        $mail->Subject = 'URMES - Novo Contato! (Medicina Escolar)';
         $mail->Body    = '';
         $mail->Body    = '<p>Nome: ' . $nome . '</p>'. 
-                         '<p>Email: ' . $email . '</p>'.
+                         '<p>Função na Escola: ' . $funcao_escola . '</p>'.
+                         '<p>Email: ' . $email . '</p>'. 
                          '<p>Telefone: ' . $telefone . '</p>'. 
-                         '<p>Assunto: ' . $assunto . '</p>'.
-                         '<p>Mensagem: ' . $mensagem . '</p>';
-
+                         '<p>Endereço: ' . $endereco . '</p>'.
+                         '<p>Quantidade de Alunos: ' . $quantidade_alunos . '</p>'.
+                         '<p>Seguro: ' . $seguro . '</p>'. 
+                         '<p>Qual? ' . $qual . '</p>'. 
+                         // '<p>Serviços de Interesse: ' . $servicos_interesse . '</p>'. 
+                         '<p>Observações: ' . $obs . '</p>';
         $mail->send();
         
         $_SESSION['status'] = "<div class='alert alert-success'><b>Sucesso!</b> Email enviado com êxito. </div>";
 
-        header('location:contato.php#content');
+        header('location:contato_escolar.php#content');
 
     } catch (Exception $e) {
         echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;

@@ -29,7 +29,7 @@
 .dropdown-item:hover>.dropdown-menu {
   display: block;
 }
-ul li{
+ul .nav-item {
 list-style-type:none;
 display: inline;
 }

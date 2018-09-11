@@ -57,7 +57,7 @@
 
             <div class="col-md-8 offset-md-2 text-59 fs-17 font-raleway weight-500">
 
-                <form method="POST" action="processar_contato.php">
+                <form method="POST" action="processar-contato_escolar.php">
 
                     <?php
                         if(isset($_SESSION['status'])){
@@ -72,14 +72,14 @@
                             <label for="name" class="mr-3 mb-0 bg-success px-2 py-1 text-white" style="width:200px;">
                                 Nome
                             </label>
-                            <input id="name" type="text" class="form-control" name="name" required placeholder="Digite seu nome">
+                            <input id="name" type="text" class="form-control" name="nome" required placeholder="Digite seu nome">
                         </div>
 
                         <div class="d-md-flex align-items-center mb-3">
                             <label for="escola" class="mr-3 mb-0 bg-success pl-2 py-1 text-white" style="width:200px;">
                                 Função na Escola&nbsp;
                             </label>
-                            <input id="escola" type="text" class="form-control" name="escola" required placeholder="Informe sua função dentro da escola">
+                            <input id="escola" type="text" class="form-control" name="funcao_escola" required placeholder="Informe sua função dentro da escola">
                         </div>
 
                         <div class="d-md-flex align-items-center mb-3">
@@ -107,7 +107,7 @@
                             <label for="quantidade" class="mr-3 mb-0 bg-success pl-2 py-1 text-white" style="width:200px;">
                                 Quantidade de alunos na Escola&nbsp;
                             </label>
-                            <input id="quantidade" type="text" class="form-control" name="quantidade" required placeholder="Quantos alunos tem a Escola?">
+                            <input id="quantidade" type="text" class="form-control" name="quantidade_alunos" required placeholder="Quantos alunos tem a Escola?">
                         </div>
 
                         <div class="d-md-flex align-items-center mb-3">

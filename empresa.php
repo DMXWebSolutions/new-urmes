@@ -57,9 +57,9 @@
                     Tendo por fundamento a constante vigilância nas comunidades infantis, conhecendo seus riscos para eliminá-los, definiu como pilares de ação:
                 
                     <ul>
-                        <li>A presença do pediatra junto à direção/coordenação da instituição; </li>
-                        <li>A orientação da equipe de educadores e das famílias;</li>
-                        <li>O estabelecimento de Programas de Saúde;</li>
+                        <li class="d-block">A presença do pediatra junto à direção/coordenação da instituição; </li>
+                        <li class="d-block">A orientação da equipe de educadores e das famílias;</li>
+                        <li class="d-block">O estabelecimento de Programas de Saúde;</li>
                     </ul>
                 </p>
 
