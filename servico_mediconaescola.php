@@ -42,7 +42,7 @@
         <div class="container">
 
             <div align="center">
-                <h1 class="mb-0 font-cookie weight-500">Médico na Escola</h1>
+                <h1 class="mb-0 font-cookie weight-500">O Médico na Escola</h1>
                 <img src="images/giz-green-long.png" class="mt--33" style="width: 250px;height:10px;">
             </div>
 
@@ -52,13 +52,15 @@
 
                     A educação envolve dois processos conjugados do desenvolvimento humano: o crescimento físico e a evolução mental. Assim, "desenvolvimento" e "questões escolares" estão sempre entrelaçados, sendo fundamental o estabelecimento de ações facilitadoras na relação Saúde-Educação.
                     Neste sentido, o médico escolar é fundamental, tanto para o atendimento às urgências de natureza médica, como para o desenvolvimento sadio de pessoas em ambientes saudáveis - pelo estabelecimento de ações preventivas e diagnósticas.
-                    A URMES é pioneira no assunto, e única na presença física do médico na escola, tomando as providências necessárias para o atendimento ao aluno e o cumprimento das obrigações legais da instituição.  
-
                 </p>
+                <p>
+                    A URMES é pioneira no assunto, e única na presença física do médico na escola, tomando as providências necessárias para o atendimento ao aluno e o cumprimento das obrigações legais da instituição.  
+                </p>
+
 
                 <div class="row">
 
-                    <div class="col-lg-6 mt-3">
+                    <div class="col-lg-6 mt-10 mb-5">
                         <a href="servico_planodeurgenciasmedicas.php#content" class="hover-d-none">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="bg-base rounded-circle p-3 d-flex justify-content-center align-items-center" style="width:63px;height:63px;">
@@ -74,7 +76,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-6 mt-3">
+                    <div class="col-lg-6 mt-10">
                         <a href="servico_programaprevencao.php#content" class="hover-d-none">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="bg-base rounded-circle p-3 d-flex justify-content-center align-items-center" style="width:63px;height:63px;">

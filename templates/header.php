@@ -15,13 +15,13 @@
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="index.php#content" class="<?php if($_SERVER['REQUEST_URI'] == "/index.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#top">
+                <a href="index.php" class="<?php if($_SERVER['REQUEST_URI'] == "/index.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#top">
                   Home
                 </a>
             </li>
             <hr class="d-md-none mt-2 mb-2 w-100" />
             <li class="nav-item">
-                <a href="empresa.php#content" class="<?php if($_SERVER['REQUEST_URI'] == "/empresa.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#about-us">
+                <a href="empresa.php" class="<?php if($_SERVER['REQUEST_URI'] == "/empresa.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#about-us">
                   A Empresa
                 </a>
             </li>
@@ -32,26 +32,26 @@
                   Serviços
                 </a>
                 <div class="dropdown-menu bg-dark-opacity" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="fs-14 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_planodeurgenciasmedicas.php#content">
+                  <a class="fs-14 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_planodeurgenciasmedicas.php">
                       Plano de Urgências Médicas
                   </a>
-                  <a class="fs-14 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_programaprevencao.php#content">
+                  <a class="fs-14 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_programaprevencao.php">
                       Programa de Prevenção Médica
                   </a>
 
                   <div class="dropdown-divider"></div>
 
-                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_mediconaescola.php#content">
+                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_mediconaescola.php">
                      Medicina Escolar
                   </a>
 
-                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_saude.php#content">
+                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_saude.php">
                      Saúde na Empresa
                   </a>
-                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_seguranca.php#content">
+                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_seguranca.php">
                      Segurança na Empresa
                   </a>
-                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_saudeeseguranca.php#content">
+                  <a class="fs-14 font-raleway weight-500 font-raleway weight-500 ls-05 dropdown-item text-white" href="servico_saudeeseguranca.php">
                      Saúde e Segurança
                   </a>
 
@@ -60,19 +60,19 @@
 
             <hr class="d-md-none mt-2 mb-2 w-100" />
             <li class="nav-item">
-                <a href="urmesexpress.php#content" class="<?php if($_SERVER['REQUEST_URI'] == "/urmesexpress.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#">
+                <a href="urmesexpress.php" class="<?php if($_SERVER['REQUEST_URI'] == "/urmesexpress.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#">
                   Urmes Express
                 </a>
             </li>
             <hr class="d-md-none mt-2 mb-2 w-100" />
             <li class="nav-item">
-                <a href="localizacao.php#content" class="<?php if($_SERVER['REQUEST_URI'] == "/localizacao.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#contact">
+                <a href="localizacao.php" class="<?php if($_SERVER['REQUEST_URI'] == "/localizacao.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#contact">
                   Localização
                 </a>
             </li>
             <hr class="d-md-none mt-2 mb-2 w-100" />
             <li class="nav-item">
-                <a href="contato.php#content" class="<?php if($_SERVER['REQUEST_URI'] == "/contato.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#letstalk">
+                <a href="contato.php" class="<?php if($_SERVER['REQUEST_URI'] == "/contato.php"){?> rounded-0 border-bottom border-success <?php } ?> btn-secondary nav-link font-raleway weight-400 ls-05 fs-17" href="#letstalk">
                   Contato
                 </a>
             </li>

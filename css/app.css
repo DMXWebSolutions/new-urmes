@@ -41,3 +41,55 @@ display: inline;
 .dropdown>.dropdown-toggle:active {
   pointer-events: none;
 }
+
+
+
+.circles-containers {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.circle-space {
+	width: 100%;
+	margin: 5px;
+}
+.circles-container-1 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.circles-1 {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.circles-container-2 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.circle-title {
+	font-size: 3rem;
+	width: 100%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+	.circles-containers {
+		flex-flow: column nowrap;
+	}
+
+	.circle-space {
+		width: 100%;
+		margin-top: 20%;
+	}
+
+	.circles-1 {
+		flex-flow: column nowrap;
+	}
+
+	.circles-container-2 {
+		margin-top: 20px;
+	}
+}
