@@ -34,6 +34,18 @@ list-style-type:none;
 display: inline;
 }
 
+ /* ul {
+  list-style: none
+}
+
+
+ ul li:before {
+	content: '\2022';
+	font-size: 1.5em;
+  margin-right: 5px;
+  color: #2d7a3e; 
+}   */
+
 .navbar-nav .nav-link{display:inline-block;}
    
 .ml-auto {display:inline-block!important;}
