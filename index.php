@@ -40,7 +40,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>  -->
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -52,9 +52,11 @@
         <div class="carousel-item">
           <img class="d-block w-100" src="images/slide3.png" alt="Third slide">
         </div>
+        <!--
         <div class="carousel-item">
           <img class="d-block w-100" src="images/slide4.png" alt="Third slide">
         </div>
+        -->
         <div class="carousel-item">
           <img class="d-block w-100" src="images/slide5.png" alt="Third slide">
         </div>

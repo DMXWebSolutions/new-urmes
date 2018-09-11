@@ -28,6 +28,35 @@
             <hr class="d-md-none mt-2 mb-2 w-100" />
             
             <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle nav-link dropdown-toggle <?php if($_SERVER['REQUEST_URI'] == "/servicos.php" || $_SERVER['REQUEST_URI'] == "/servico_planodeurgenciasmedicas.php" || $_SERVER['REQUEST_URI'] == "/servico_programaprevencao.php" || $_SERVER['REQUEST_URI'] == "/servico_saudeeseguranca.php" || $_SERVER['REQUEST_URI'] == "/servico_saude.php" || $_SERVER['REQUEST_URI'] == "/servico_seguranca.php") { ?> rounded-0 border-bottom border-success <?php } ?>">
+                Serviços
+              </a>
+              <div class="dropdown-menu bg-dark-opacity" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown btn-group dropright">
+                    <a class="text-white dropdown-item dropdown-toggle" href="#" id="dropdownMenuButton2" data-toggle="dropdown">
+                      Medicina Escolar
+                    </a>
+                    <div class="dropdown-menu bg-dark-opacity">
+                      <a class="dropdown-item text-white" href="servico_mediconaescola.php">Médico na Escola</a>
+                      <a class="dropdown-item text-white" href="servico_planodeurgenciasmedicas.php">Urgências Médicas</a>
+                      <a class="dropdown-item text-white" href="servico_programaprevencao.php">Prevenção Médica</a>
+                    </div>
+                </div>
+                <div class="dropdown btn-group dropright">
+                    <a class="text-white dropdown-item dropdown-toggle" href="#" id="dropdownMenuButton2" data-toggle="dropdown">
+                      Medicina do Trabalho
+                    </a>
+                    <div class="dropdown-menu bg-dark-opacity">
+                      <a class="dropdown-item text-white" href="servico_seguranca.php">Segurança na Empresa</a>
+                      <a class="dropdown-item text-white" href="servico_saude.php">Saúde na Empresa</a>
+                      <a class="dropdown-item text-white" href="servico_saudeeseguranca.php">Saúde e Segurança</a>
+                    </div>
+                </div>
+              </div>
+            </li>
+
+            <!--
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle <?php if($_SERVER['REQUEST_URI'] == "/servicos.php" || $_SERVER['REQUEST_URI'] == "/servico_planodeurgenciasmedicas.php" || $_SERVER['REQUEST_URI'] == "/servico_programaprevencao.php" || $_SERVER['REQUEST_URI'] == "/servico_saudeeseguranca.php" || $_SERVER['REQUEST_URI'] == "/servico_saude.php" || $_SERVER['REQUEST_URI'] == "/servico_seguranca.php") { ?> rounded-0 border-bottom border-success <?php } ?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Serviços
                 </a>
@@ -57,6 +86,7 @@
 
                 </div>
             </li>
+            -->
 
             <hr class="d-md-none mt-2 mb-2 w-100" />
             <li class="nav-item">
