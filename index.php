@@ -98,12 +98,12 @@
 
                 <div class="circles-container-1">
 
-                    <div class="circle-title mt-0 mt-lg-5 pt-5 pt-lg-0">
+                    <div class="circle-title mt--43 mt-lg-5 pt-5 pt-lg-0">
                         <h3 class="font-cookie circle-title">Medicina Escolar</h3>
-                        <img src="images/giz-green-long.png" class="img-fluid ml-md-2 mt--33 mb-5">
+                        <img src="images/giz-green-long.png" class="img-fluid ml-md-2 mt--43 mb-5">
                     </div>
 
-                    <div class="circles-1  mt-0 mt-lg-5 container-fluid">
+                    <div class="circles-1  mt--43 mt-lg-5 container-fluid">
                         <div class=" circle-space rounded-circle w-xs-300px h-xs-300px h-md-350px p-4 border-base">
                             <img src="images/care.png" class="bg-success rounded-circle p-3" style="margin-top: -75px;">
                             <p class="mb-0 mt-3 ml-4 mr-4 font-raleway weight-600 text-base ls-05">
@@ -135,9 +135,9 @@
                 <div class="circles-container-2">
                     <div class="circle-title mt-0 mt-lg-5 pt-5 pt-lg-0">
                         <h3 class="font-cookie circle-title">Medicina do Trabalho</h3>
-                        <img src="images/giz-green-long.png" class="img-fluid ml-md-2 mt--33 mb-5">
+                        <img src="images/giz-green-long.png" class="img-fluid ml-md-2 mt--43 mb-5">
                     </div>
-                    <div class="container fluid mt-lg-3">    
+                    <div class="container fluid mt-lg-3 mt--43">    
                         <div class=" circle-space rounded-circle w-xs-300px h-xs-300px h-md-350px p-4 border-base ">
                             <p style="margin-top: -65px;">
                                 <i class="bg-success rounded-circle p-3 fa fa-user-md text-white fs-50"></i>
@@ -158,84 +158,7 @@
         </div>
     </section>
 
-    <br><br><br>
-
-    <!--
-    <section id="services">
-        <div class="container">
-
-            <div class="row" align="center">
-
-                <div class="col mb-5 ml-xs--5">
-
-                <div class="d-flex justify-content-center flex-column">
-                    <span class="font-cookie ls-05 fs-37">
-                        Medicina do Trabalho
-                    </span>
-                    <img src="images/giz-green-long.png" class="img-fluid mt--17" style="width:275px;">
-                </div>
-
-                    <div class="rounded-circle w-xs-300px h-xs-300px w-100 h-md-350px p-4 border-base">
-                        <img src="images/care.png" class="bg-success rounded-circle p-3" style="margin-top: -75px;">
-                        <p class="mb-0 mt-3 ml-4 mr-4 font-raleway weight-600 text-base ls-05">
-                            Plano de Urgências Médicas
-                        </p>
-                        <hr class="mt-2 mb-2" />
-                        <p class="text-success font-raleway weight-500 ls-05">
-                            O Plano Urgências Médicas URMES dá tranquilidade à escola e sua direção, na solução de urgências de ordem médica no dia a dia com seus alunos.
-                        </p>
-                        <a href="servico_planodeurgenciasmedicas.php#content" class="mt-2 btn btn-success">Conheça mais</a>
-                    </div>
-                </div>
-                <div class="col mb-5 ml-xs--5">
-                    <div class="rounded-circle w-xs-300px h-xs-300px w-100 h-md-350px p-4 border-base">
-                        <p style="margin-top: -70px;">
-                            <i class="bg-success rounded-circle p-3 fa fa-briefcase-medical text-white fs-50"></i>
-                        </p>
-
-                        <p class="mb-0 ml-4 mr-4 font-raleway weight-600 text-base ls-05">
-                            Programa de Prevenção Médica
-                        </p>
-                        <hr class="mt-2 mb-2" />
-                        <p class="text-success font-raleway weight-500 ls-05">
-                            Conheça o diferencial URMES oferecido a seus clientes, com orientações quanto aos cuidados médicos para cada faixa etária dos alunos.
-                        </p>
-                        <a href="servico_programaprevencao.php#content" class="mt-2 btn btn-success">Conheça mais</a>
-                    </div>
-                </div>
-                <div class="col mb-5 ml-xs--5">
-                    
-                    <div class="d-flex justify-content-center flex-column">
-                        <span class="font-cookie ls-05 fs-37">
-                            Medicina do Trabalho
-                        </span>
-                        <img src="images/giz-green-long.png" class="img-fluid mt--17" style="width:275px;">
-                    </div>
-
-                    <br><br>
-
-                    <div class="rounded-circle w-xs-300px h-xs-300px w-100 h-md-350px p-4 border-base">
-                        <p style="margin-top: -65px;">
-                            <i class="bg-success rounded-circle p-3 fa fa-user-md text-white fs-50"></i>
-                        </p>
-                    
-                        <p class="mb-0 mt-3 ml-3 mr-3 font-raleway weight-600 text-base ls-05">
-                            Segurança e Saúde Ocupacional
-                        </p>
-                        <hr class="mt-2 mb-2" />
-                        <p class="text-success font-raleway weight-500 ls-05">
-                            A URMES auxilia a empresa no cumprimento das leis do Ministério do Trabalho visando a promoção e preservação da saúde de seus trabalhadores. 
-                        </p>
-                        <a href="servico_saudeeseguranca.php#content" class="mt-2 btn btn-success">Conheça mais</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    -->
-
-    <br>
+    <br><br><br><br>
 
     <section id="letstalk">
         <img src="images/banner.png" class="img-fluid">
