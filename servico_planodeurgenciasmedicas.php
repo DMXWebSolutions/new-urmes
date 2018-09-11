@@ -86,20 +86,20 @@
                     <img src="images/giz-green-long.png" class="img-fluid mt--17">
                 </div>
 
-                <ul>
-                    <li>
+                <ul class="mb-3 px-3">
+                    <li class="mb-3">
                         Atendimento imediato de urgências, com médico na escola, para a tomada segura de decisões, no encaminhamento de cada caso;
                     </li>
-                    <li>
+                    <li class="mb-3">
                         Cobertura, não só de acidentes como também, de casos clínicos agudos;
                     </li>
-                    <li>
+                    <li class="mb-3">
                         Extensa rede de clínicas e hospitais credenciados, de livre escolha;
                     </li>
-                    <li>
+                    <li class="mb-3">
                         Presença da URMES nos eventos pré-agendados da escola;
                     </li>
-                    <li>
+                    <li class="mb-3">
                         Direito ao <a href="servico_programaprevencao.php#content" class="text-success font-raleway weight-600 ls-05">PROGRAMA DE PREVENÇÃO</a>, para sua instituição;
                     </li>
                 </ul>

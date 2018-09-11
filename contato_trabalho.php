@@ -57,7 +57,7 @@
 
             <div class="col-md-8 offset-md-2 text-59 fs-17 font-raleway weight-500">
 
-                <form method="POST" action="processar_contato.php">
+                <form method="POST" action="processar-contato_trabalho.php">
 
                     <?php
                         if(isset($_SESSION['status'])){
@@ -72,14 +72,14 @@
                             <label for="name" class="mr-3 mb-0 bg-success px-2 py-1 text-white" style="width:200px;">
                                 Nome
                             </label>
-                            <input id="name" type="text" class="form-control" name="name" required placeholder="Digite seu nome">
+                            <input id="name" type="text" class="form-control" name="nome" required placeholder="Digite seu nome">
                         </div>
 
                         <div class="d-md-flex align-items-center mb-3">
                             <label for="empresa" class="mr-3 mb-0 bg-success pl-2 py-1 text-white" style="width:200px;">
                                 Função na Empresa&nbsp;
                             </label>
-                            <input id="empresa" type="text" class="form-control" name="empresa" required placeholder="Informe sua função na empresa">
+                            <input id="empresa" type="text" class="form-control" name="funcao_empresa" required placeholder="Informe sua função na empresa">
                         </div>
 
                         <div class="d-md-flex align-items-center mb-3">
@@ -107,7 +107,7 @@
                             <label for="quantidade" class="mr-3 mb-0 bg-success pl-2 py-1 text-white" style="width:200px;">
                                 Quantidade de Funcionários na Empresa&nbsp;
                             </label>
-                            <input id="quantidade" type="text" class="form-control" name="quantidade" required placeholder="Quantos funcionários tem na empresa?">
+                            <input id="quantidade" type="text" class="form-control" name="quantidade_funcionarios" required placeholder="Quantos funcionários tem na empresa?">
                         </div>
 
                         <div class="d-md-flex align-items-center mb-3">
@@ -156,8 +156,8 @@
                     <a href="contato.php#content" class="mb-3 mb-md-0 btn btn-success bg-base border-0">
                         <span class="rounded">Contato Geral</span>
                     </a>
-                    <a href="contato_trabalho.php#content" class="mb-3 mb-md-0 btn btn-success bg-base border-0">
-                        <span class="rounded">Medicina do Trabalho</span>
+                    <a href="contato_escolar.php#content" class="mb-3 mb-md-0 btn btn-success bg-base border-0">
+                        <span class="rounded">Medicina Escolar</span>
                     </a>
                 </div>
 
